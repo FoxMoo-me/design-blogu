@@ -1,25 +1,216 @@
 body {
     width: 960px;
     margin: 0 auto;
-    background: #dedbdbb9 url("../image/brandi-redd-aJTiW00qqtI-unsplash.jpg") 50% 30px no-repeat;
+    color: #222;
+    font: 18px/30px Georgia, serif;
+    --webkit-font-smoothing: antialiased;
+    padding: 0px 20px;
 }
 
 .logo {
     margin: 0;
     position: relative;
-    top: -7px;
+    top: -77px;
+    z-index: 2;
 }
- h1 {
-    font-family: ;
+ .cover {
+    background: #dedbdbb9 url("../image/brandi-redd-aJTiW00qqtI-unsplash.jpg") 50% 0px no-repeat;
+    height: 470px;
+    margin-top: -85px;
+    position: relative;
+    z-index: 1;
+ }
+
+ a {
+    text-decoration: none;
+    color: #2455c3;
+ }
+
+ a:hover,
+ a:focus {
+    text-decoration: underline;
+ }
+ h1, h2, h3 {
+    font-weight: 800px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
  }
 .logo a {
+    background: url("../image/a143a64bd08d478395909c653a0c31a9-free.png") left top no-repeat;
     display: block;
     width: 960px;
     height: 105px;
+    text-indent: -9999;
 }
-
+ p{
+    margin: 0 0 24px;
+ }
 .post-header {
     text-align: center;
+}
+
+.post-title {
+    font-family: 'Georgia, 'Times New Roman', Times, serif';
+    line-height: 56px;
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: -2px;
+    margin: 0px;
+}
+
+
+.badge {
+    background: #bb3925d4;
+    background: rgba(rgba(255, 0, 0, 0.874));
+    display: block;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 800px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: -2px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 18px;
+    position: absolute;
+    bottom: 20px;
+    right: -20px;
+}
+
+.badge:hover,
+.badge:focus {
+    text-decoration: none;
+}
+
+.badge small {
+    font-size: 16px;
+    line-height: 16px;
+    font-style: italic;
+    font-weight: normal;
+    letter-spacing: 0;
+    font-family: 'Arial, Helvetica, sans-serif';
+    display: block;
+}
+.post-meta{
+    font-style: italic;
+}
+/* pseudo element - inserted before the time element */
+.post-meta time:before {
+   content: ' . ';
+   font-style: normal;
+}
+
+.author {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    margin: 0 3px;
+}
+.post-content p,
+.post-content h2,
+.post-content h3 {
+    margin-right: 130px;
+    margin-left: 130px;
+}
+.post-content p:first-child {
+    font-size: 24px;
+    line-height: 36px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.post-content h2 {
+    font-size: 28px;
+    line-height: 30px;
+    color: #ba3925;
+    margin-top: 36px;
+    margin-bottom: 12px;
+}
+
+.post-content h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.pull-quote {
+    color: #787878;
+    max-width: 300px;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.pull-quote .float-left {
+    margin: 24px 34px 24px 0px;
+}
+
+.pull-quote .float-right {
+    margin: 24px 0px 24px 34px;
+}
+
+.pull-quote q {
+    font-size: 24px;
+    line-height: 36px;
+    font-style: italic;
+}
+
+.pull-quote ul,
+.pull-quote ol {
+    list-style: none;
+    padding-left: 0;
+}
+
+.pull-quote li {
+    border-bottom: 1px dotted #aaa;
+    padding: 2px 10px;
+}
+.pull-quote li:last-child {
+    border: none;
+}
+
+.post-footer {
+    width: 700px;
+    margin: 60px auto;
+}
+/* selects only the direct child - of a parent (footer) */
+.post-footer h3 {
+    font-size: 18px;
+    
+}
+.post-footer > h3 {
+    text-align: center;
+}
+.photo {
+    float: left;
+}
+.photo img {
+    border-radius: 50%;
+    border: 10px solid #eee;
+    margin-top: 6px;
+}
+.by-line h3, 
+.by-line p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 160px;
+}
+
+.by-line h3 a {
+    color: #222;
+}
+.pre-footer {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
 }
 /* FONT */
 .roboto-thin {
