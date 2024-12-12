@@ -14,7 +14,7 @@ body {
 .logo {
     margin: 0;
     position: relative;
-    top: -77px;
+    top: -7px;
     z-index: 2;
 }
  .cover {
@@ -66,7 +66,7 @@ body {
     background: #bb3925d4;
     background: rgba(rgba(255, 0, 0, 0.874));
     display: block;
-    height: 120px;
+    height: 100px;
     width: 120px;
     border-radius: 50%;
     color: #fff;
@@ -79,8 +79,8 @@ body {
     text-align: center;
     padding-top: 18px;
     position: absolute;
-    bottom: 20px;
-    right: -20px;
+    bottom: 10px;
+    right: -18px;
 }
 
 .badge:hover,
@@ -97,7 +97,7 @@ body {
     font-family: 'Arial, Helvetica, sans-serif';
     display: block;
 }
-.post-meta{
+.post-meta {
     font-style: italic;
 }
 /* pseudo element - inserted before the time element */
@@ -257,76 +257,56 @@ body {
     text-align: right;
     padding: 15px 10px;
 }
-/* FONT */
-.roboto-thin {
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-  }
-  
-  .roboto-light {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .roboto-regular {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .roboto-medium {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .roboto-bold {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .roboto-black {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-  }
-  
-  .roboto-thin-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-style: italic;
-  }
-  
-  .roboto-light-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  .roboto-regular-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .roboto-medium-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: italic;
-  }
-  
-  .roboto-bold-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-  }
-  
-  .roboto-black-italic {
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-style: italic;
-  }
-  
+
+code {
+    color: #fff;
+    background: #9f3fa3;
+    display: block;
+    padding: 25px;
+    font: 14px/24px "Roboto", sans-serif, monospace;
+    border-radius: 6px;
+    text-align: center;
+}
+
+#wrapper {
+    width: 700px;
+    margin: 0 auto;
+}
+
+#wrapper header,
+#wrapper section, 
+#wrapper aside,
+#wrapper footer {
+    margin: 0 0 25px;
+}
+#wrapper section {
+    float: left;
+    width: 425px;
+}
+#wrapper aside {
+    float: right;
+    width: 250px;
+}
+#wrapper footer {
+    clear: both;
+}
+/* code to style a div with class id wrapper and class group to insert before and after a group of floating elements */
+/* .group:before,
+aside, p {
+outline: 3px solid red;
+}
+ [id] {
+ outline: 3px solid green;
+ background: #FFFDC9;
+}
+.group:after {
+    content: " ";
+    display: table;
+}
+.group:after {
+    clear: both;
+}
+.group:before {
+    *zoom: 1;
+} */
+/* end of the code to style div wrapper for floating elements */
