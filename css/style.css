@@ -287,18 +287,10 @@ code {
     float: right;
     width: 250px;
 }
-#wrapper footer {
-    clear: both;
-}
+
 /* code to style a div with class id wrapper and class group to insert before and after a group of floating elements */
-/* .group:before,
-aside, p {
-outline: 3px solid red;
-}
- [id] {
- outline: 3px solid green;
- background: #FFFDC9;
-}
+
+.group.before,
 .group:after {
     content: " ";
     display: table;
@@ -306,7 +298,7 @@ outline: 3px solid red;
 .group:after {
     clear: both;
 }
-.group:before {
+.group {
     *zoom: 1;
-} */
+}
 /* end of the code to style div wrapper for floating elements */
